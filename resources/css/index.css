@@ -1,1 +1,29 @@
-in
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+header {
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  padding-left: 10px;
+}
+
+#logo img {
+  height: 50px;
+}
+
+header a {
+  color: seashell;
+  /* Underline should be the user-agent default, but just in case... */
+  text-decoration: underline;
+}
