@@ -24,6 +24,85 @@ header {
 
 header a {
   color: seashell;
+
   /* Underline should be the user-agent default, but just in case... */
   text-decoration: underline;
+}
+
+#mission {
+  background: url(../photos/img-mission-background.jpg);
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.statement {
+  background-color: black;
+  width: 100%;
+}
+
+h2, h4 {
+  text-align: center;
+}
+
+#month {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+#month img {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
+
+#month span {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#locations {
+  margin: 0 auto;
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+  background: url(../photos/img-locations-background.jpg);
+}
+
+#locations h2 {
+  width: 100%;
+  margin: 15px;
+}
+
+.locales {
+  display: flex;
+  justify-content: center;
+}
+
+.location {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  opacity: 1.0; /* Doesn't really change anything */
+  margin: 0 20px;
+}
+
+.location h3 {
+  text-align: center;
+}
+
+p {
+  display: block;
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+  height: 200px;
 }
